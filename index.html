@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Mario Bros Encanamento</title>
 </head>
@@ -60,11 +61,14 @@
         </a>
     </div>
 
-    <form class="form-fale-conosco">
-        <input placeholder="Seu nome">
-        <input placeholder="Seu telefone">
-        <textarea placeholder="Digite seu problema aqui..."></textarea>
-        <button> Pedir Orçamento</button>
+    <form class="form-fale-conosco"
+         action="https://formcarry.com/s/UUaB_a8dg4X" 
+         method="POST"
+         enctype="multipart/form-data">
+        <input placeholder="Seu nome" name="nome" type="text">
+        <input placeholder="Seu telefone" name="telefone" type="number">
+        <textarea placeholder="Digite seu problema aqui..." name="duvida"></textarea>
+        <button type="submit"> Pedir Orçamento</button>
 
     </form>
 
